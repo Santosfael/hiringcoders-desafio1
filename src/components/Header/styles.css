@@ -1,0 +1,33 @@
+.content-header {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font: 700 24px Nunito, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.header .header-list {
+  margin-left: 1rem;
+  font: 600 18px Nunito, sans-serif;
+}
+
+.link-list {
+  text-decoration: none;
+  font-size: 1.4rem;
+  transition: background-color 0.2s;
+  font: 600 18px Nunito, sans-serif;
+  color: #fff;
+}
+
+.link-list:hover {
+  color: #000;
+}

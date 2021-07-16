@@ -1,0 +1,150 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.content {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font: 800 24px Nunito, sans-serif;
+}
+
+.content-banner-black-friday {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 5rem;
+}
+
+.title-input {
+  font: 600 18px Nunito, sans-serif;
+}
+
+#container .input {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  width: 20rem;
+  height: 2rem;
+  border-radius: 0.4rem;
+  border: none;
+  padding: 0.3rem;
+
+  font: 600 18px Nunito, sans-serif;
+}
+
+.button-submit {
+  width: 20rem;
+  height: 2.2rem;
+  border-radius: 0.4rem;
+  background-color: #1bde9f;
+  color: #fff;
+  font: 700 18px Nunito, sans-serif;
+  border: none;
+
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button-submit:hover {
+  background-color: #1bc19f;
+}
+
+.img-black-friday {
+  width: 250px;
+  height: 250px;
+}
+
+.title-bunner {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font: 700 24px Nunito, sans-serif;
+}
+
+.content-card-product {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  width: 250px;
+  height: 250px;
+  border-radius: 0.8rem;
+  background-color: #fff;
+
+  transition: transform 300ms ease;
+}
+
+.card-product:hover {
+  transform: scale(1.1);
+}
+
+.img-item {
+  width: 200px;
+  height: 150px;
+}
+
+.span-title {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #000;
+  font: 600 18px Nunito, sans-serif;
+}
+
+.button-product {
+  width: 10rem;
+  height: 2.2rem;
+  border-radius: 0.4rem;
+  background-color: #1bde9f;
+  color: #fff;
+  border: none;
+  font: 600 16px Nunito, sans-serif;
+
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.button-product:hover {
+  background-color: #1bc19f;
+}
+
+@media (max-width: 800px) {
+  #content {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-banner-black-friday {
+    flex-direction: column;
+  }
+
+  .content-register {
+    margin-left: 0;
+  }
+
+  .content-card-product {
+    display: flex;
+    flex-direction: column;
+  }
+}
