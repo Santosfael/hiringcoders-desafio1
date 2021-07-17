@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## To run Application
+
+to run the application you need to have installed:
+[Nodejs](https://nodejs.org/en/),
+NPM is installed together with nodejs
+[Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable),
+
+## Installation of Packages
+
+In the project directory, you can run:
+
+## `yarn install`
+
 ## Available Scripts
 
 In the project directory, you can run:
