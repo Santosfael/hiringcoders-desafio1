@@ -13,7 +13,7 @@ NPM is installed together with nodejs
 
 In the project directory, you can run:
 
-## `yarn install`
+### `yarn install`
 
 ## Available Scripts
 
